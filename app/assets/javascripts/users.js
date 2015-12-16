@@ -21,7 +21,7 @@ $(document).ready(function(){
             }, stripeResponseHandler);
         }
         return false;
-    })//Form submission
+    });//Form submission
     
     function stripeResponseHandler(status, response){
         //get reference from the form:
